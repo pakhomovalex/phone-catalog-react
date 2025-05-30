@@ -214,8 +214,10 @@ body {
 .categories {
   @include page-grid;
 
-  row-gap: 32px;
-
+  & {
+    row-gap: 32px;
+  }
+  
   &__category {
     grid-column: 1/-1;
 

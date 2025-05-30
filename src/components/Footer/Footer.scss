@@ -22,7 +22,9 @@
       align-items: center;
     }
 
-    padding-block: 32px;
+    & {
+      padding-block: 32px;
+    }
   }
 
   &__logo {
