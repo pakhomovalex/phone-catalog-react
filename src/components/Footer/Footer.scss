@@ -15,14 +15,14 @@
 
   &__content-box {
     @include padding-inline;
-  
-    padding-block: 32px;
 
     @include on-tablet {
       @include page-grid;
 
       align-items: center;
     }
+
+    padding-block: 32px;
   }
 
   &__logo {

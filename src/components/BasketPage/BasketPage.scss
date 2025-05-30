@@ -8,7 +8,7 @@
 .basket-page {
   @include padding-inline;
 
-  padding-bottom: 96px + 120px;
+  
 
   @include on-tablet {
     padding-bottom: 96px + 100px;
@@ -17,9 +17,6 @@
   @include on-desktop {
     padding-bottom: 96px + 80px;
   }
-
-  width: 100%;
-  margin-bottom: 96px;
 
   @include on-desktop {
     @include page-grid;
@@ -30,6 +27,13 @@
       grid-column: 1/-1;
     }
   }
+
+  & {
+    width: 100%;
+    margin-bottom: 96px;
+    padding-bottom: 96px + 120px;
+  }
+
 
   &__title {
     margin: 0;
