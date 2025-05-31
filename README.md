@@ -1,17 +1,21 @@
-📱 Phone Catalog
+📱 **Phone Catalog**
 
 A responsive and user-friendly phone catalog built with React. This project allows users to browse, search, filter, and view detailed information about smartphones. It also features a functional basket and favorites system, simulating a minimal e-commerce experience.
 
-🔗 Live Preview
+
+🔗 **Live Preview**
 
 Click [here to view](https://pakhomovalex.github.io/phone-catalog-react/) the Phone Catalog
 
 ✅ Confirmed working in incognito/private mode
 
-🎨 Design Reference
+
+🎨 **Design Reference**
+
 Here the [Figma](https://www.figma.com/design/xMK2Dy0mfBbJJSNctmOuLW/Phone-catalog--V2--Rounded-Style-1?node-id=0-1&p=f) design
 
-🛠 Technologies Used
+
+🛠 **Technologies Used**
 
 React (with functional components and hooks)
 
@@ -31,7 +35,8 @@ Classnames
 
 Custom-select
 
-🚀 Getting Started
+
+🚀 **Getting Started**
 
 To run the project locally:
 
@@ -47,7 +52,7 @@ npm run dev
 ```
 Open your browser at http://localhost:5173
 
-✨ Features
+✨ **Features**
 
 📱 Product listing with prices, names, and images
 
