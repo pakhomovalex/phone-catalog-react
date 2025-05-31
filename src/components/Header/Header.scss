@@ -33,7 +33,7 @@
   &__logo {
     height: 23px;
     width: 64px;
-    background-image: url(../../../public/img/Logo.svg);
+    background-image: url(/img/Logo.svg);
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -73,7 +73,7 @@
     }
 
     &--menu {
-      background-image: url(../../../public/img/Menu.svg);
+      background-image: url(/img/Menu.svg);
 
       @include on-tablet {
         display: none;
@@ -81,11 +81,11 @@
     }
 
     &--close {
-      background-image: url(../../../public/img/close-icon.svg);
+      background-image: url(/img/close-icon.svg);
     }
 
     &--favorite {
-      background-image: url(../../../public/img/heart-icon.svg);
+      background-image: url(/img/heart-icon.svg);
 
       &--active {
         &::after {
@@ -100,7 +100,7 @@
     }
 
     &--basket {
-      background-image: url(../../../public/img/basket-icon.svg);
+      background-image: url(/img/basket-icon.svg);
 
       &--active {
         &::after {

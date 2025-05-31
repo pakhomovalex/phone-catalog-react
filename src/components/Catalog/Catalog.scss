@@ -213,7 +213,7 @@
   &__home {
     width: 16px;
     height: 16px;
-    background-image: url(../../../public/img/home-icon.svg);
+    background-image: url(/img/home-icon.svg);
     transition: .3s;
 
     &:hover {
@@ -306,18 +306,18 @@
     background-position: center;
 
     &--arrow-prev {
-      background-image: url(../../../public/img/arrow-prev.svg);
+      background-image: url(/img/arrow-prev.svg);
 
       &.disabled-link {
-        background-image: url(../../../public/img/arrow-prev-disabled.svg);
+        background-image: url(/img/arrow-prev-disabled.svg);
       }
     }
 
     &--arrow-next {
-      background-image: url(../../../public/img/arrow-next.svg);
+      background-image: url(/img/arrow-next.svg);
 
       &.disabled-link {
-        background-image: url(../../../public/img/arrow-next-disabled.svg);
+        background-image: url(/img/arrow-next-disabled.svg);
       }
     }
   }
